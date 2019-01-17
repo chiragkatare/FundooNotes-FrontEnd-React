@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -11,4 +11,813 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+
+/* .label{
+    /* flexDirection: 'row' */
+/* } */
+
+
+
+
+body {
+  /* background-color:lightgoldenrodyellow;  */
+  text-decoration: none;
 }
+
+
+#reg-text-login{
+  
+  margin-bottom: 10%;
+
+} 
+
+#formcard{
+  margin: auto;
+  margin-top: 5%;
+  height: 500px;
+  width: 400px;
+  
+}
+
+#logincard{
+  margin: auto ;
+  margin-top: 5%;
+  height: 300px;
+  width:300px;
+  /* margin-top: 25%;
+  mar */
+  
+}
+
+#card-heading     {
+ text-align: center;
+}
+
+#login-text{
+  text-align: center;
+  /* padding: 0px 35px 0px 35px; */
+
+}
+
+#left-text{
+  float: left;
+  text-decoration: none;
+}
+
+#right-text{
+  float: right;
+  text-decoration: none;
+}
+.form{
+  text-align: center;
+  padding: 0px 2% 0% 2%;
+}
+
+#register-btn-div{
+margin: 25px;
+}
+
+#login-btn-div{
+  margin: 15px ;
+  margin-left: 27%;  
+}
+
+.register-btn{
+  width: 50%;
+  background-image: linear-gradient(to bottom right, rgb(0, 203, 253), rgb(0, 76, 255));
+  
+}
+
+.login-btn{
+  width: 70%;
+  background-image: linear-gradient(to bottom right, rgb(0, 203, 253), rgb(0, 76, 255));
+  
+}
+
+span.below-txt{
+  float: right;
+}
+
+#newuser{
+  float: right
+}
+
+.error{
+  color: #F44336;
+  float: right;
+}
+
+/*
+email Verificatio  page css
+*/
+#verify-card{
+  margin: auto;
+  margin-top: 5%;
+  height: 400px;
+  width: 350px;
+  
+}
+
+.logo{
+  margin: auto;
+  height: 70px;
+  width: 70px ;
+}
+
+.label-page{
+  padding: 10px;
+  background-color: rgb(54, 54, 54);
+  margin-bottom: 35px;
+  
+}
+
+.label-forgetpass{
+  padding: 10px;
+  background-color: rgb(54, 54, 54);
+  margin-bottom: 5px;    
+}
+
+div .label-text{
+  color: aliceblue;
+}
+
+
+.appbar-divbutton{
+  margin-left: auto;
+  display: flex;
+}
+.appbar-heading-div{
+  display: flex;
+  min-width: 185px;
+}
+
+.appbar-search{
+  margin-left: 30px;
+  border: solid 1px white;
+  box-shadow: 0px 0px 5px rgb(255, 255, 255) ; 
+  border-radius: 8px;
+  padding-top: 0px;
+  line-height: 20%;
+  display: flex;
+  width : 650px; 
+  background: rgba(0,0,0,0.04);
+}
+
+.appbar-search-focus{
+  margin-left: 30px;
+  border: solid 1px;
+  box-shadow: 0px 0px 5px grey ;
+  border-radius: 8px;
+  padding-top: 0px;
+  line-height: 20%;
+  display: flex;
+  width : 650px; 
+  background: rgba(255, 255, 255, 0.04);
+  transition: background 100ms ease-in,width 1000ms ease-out;
+}
+
+/* .appbar-search:hover{
+  margin-left: 30px;
+  border: solid 1px;
+  box-shadow: 0px 0px 5px grey ;
+  border-radius: 8px;
+  padding-top: 0px;
+  line-height: 20%;
+  display: flex;
+  width : 650px; 
+  background: rgba(255, 255, 255, 0.04)
+} */
+.appbar-search-active{
+  margin-left: 30px;
+  border: solid 1px;
+  box-shadow: 0px 0px 5px grey ;
+  border-radius: 8px;
+  padding-top: 0px;
+  line-height: 20%;
+  display: flex;
+  width : 650px; 
+  background: rgba(0,0,0,0.04);
+      transition: background 100ms ease-in, width 100ms ease-out;
+}
+.icon{
+  cursor: pointer;
+  opacity:0.5 ;
+}
+
+.icon:hover:hover {opacity: 1}
+
+.appbar-logo{
+  height: 48px;
+  width: 48px ;
+  padding-right: 15px;
+  
+}
+
+.colorpallate-popper{
+  z-index: 1;
+}
+
+.appbar-avatar-btn{
+  margin-left:auto;
+}
+
+div .appbar-heading{
+  line-height: 50px;
+  opacity:0.7 ;
+}
+
+#side-drawer{
+  margin-top: 64px;
+  width:280px
+}
+
+.sidedrawer-list{
+  cursor: pointer; 
+  border-radius: 0 25px 25px 0;
+}
+
+.sidedrawer-list-selected{
+  cursor: pointer; 
+  border-radius: 0 25px 25px 0;
+  background: #feefc3;
+}
+
+.sidebar-block-div{
+  margin: 8px 0px ;
+}
+
+.sidebar-labels{
+  padding-left: 26px;
+  font-size: 0.9rem;
+}
+
+/* #feefc3; */
+.sidedrawer-list:hover{
+
+  background: rgba(0,0,0,0.07);
+}
+
+.fb-button{
+  color: #F44336;
+}
+
+.profilepic-input-div{
+  width: 97px;
+  display: flex;
+  opacity: 0.3;
+}
+
+.social-login{
+  display: flex;
+  justify-content: space-between;
+}
+
+.takenote-div{
+  display: flex ;
+  padding: 6px 20px 6px 20px;
+  margin: 100px auto 0px auto ;
+  width:500px;
+  /* margin-left: 350px; */
+  height: 30px;
+  box-shadow: 0px 0px 5px rgb(44, 44, 44);
+  border-radius: 8px;
+  /* line-height: 10%; */
+}
+
+.edit-labels-diag-div{
+
+  padding: 16px;
+}
+
+.edit-labels-diag-heading{
+
+  font-size: 15px;
+}
+
+.edit-labels-diag-content{
+  display: flex ;
+  padding: 2px 0px 2px 6px ;
+}
+
+.edit-labels-input{
+  padding: 0 7px;
+}
+
+.edit-note-diag-createlabel{
+  display: flex;
+}
+
+div .create-new-label{
+  padding: 0px 2px 0px 14px
+}
+
+.main-div-drawer-open{
+  margin-left: 280px;
+  transition: margin-left .25s cubic-bezier(0.4,0.0,0.2,1),visibility 0s linear .25s;
+  /* transition: margin-left 225ms cubic-bezier(0, 0, 0.2, 1) 0ms; */
+  /* transition: margin-left 0.13s; 
+transition-timing-function: ease-out;  */
+}
+
+.main-div{
+  /* transition: margin-left 225ms cubic-bezier(0, 0, 0.2, 1) 0ms; */
+  transition: margin-left .25s cubic-bezier(0.4,0.0,0.2,1),visibility 0s linear .25s;
+  /* transition: margin-left 0.13s;    */
+   /* transition-timing-function: ease-out;  */
+}
+
+.takenote-div-open{
+  padding: 6px 20px 6px 20px;
+  margin: 100px auto 0px auto ;
+  width:500px;
+  /* margin-left: 350px; */
+  /* height: 100px; */
+  box-shadow: 0px 0px 5px rgb(44, 44, 44);
+  border-radius: 8px;
+  /* line-height: 10%;  */
+  justify-content: center;
+}
+
+.takenote-bottom-icons-div {
+  /* position: absolute; */
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  padding: 3px;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.card-button-close{
+  float: right;
+}
+
+.note-images{
+  width: 100%;
+  height: auto;
+}
+
+.note-card{
+  width:238px;
+  margin: 6px 3px;
+  margin-bottom: 0%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 2px;
+  /* bwlow experimental */
+  
+  /*
+  flex-direction: row; */
+}
+
+.note-card-grid{
+  width: 553px;
+  /* margin: 1%; */
+  /* margin-bottom: 0%; */
+  /* flex-direction: row; */
+  margin: 25px auto 0 auto;
+  /* width:600px;
+  margin: 1%;
+  margin-bottom: 0%; */
+  /*
+  flex-direction: row; */
+}
+
+
+
+.notes-div{
+
+  width: 765px;
+  display: flex;
+  flex-wrap: wrap;
+  position: inherit;
+
+
+  /* display: flex;
+  flex-wrap: wrap;
+  /* position: inherit; */
+  /* left: 142px;  */
+  
+  margin: 27px auto 0px auto
+
+}
+
+/* .notes-div-grid{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  left: 142px;
+  margin: 5% auto 0px 26%;
+
+} */
+
+
+.note-card .note-card-def {
+  overflow: inherit;
+  border-radius: 6px;
+  padding-top: 6,;
+              padding-bottom: 6,;
+} 
+
+
+div .remainder-chip{
+  background-color: rgba(0,0,0,0.08);
+  height: 24px;
+}
+
+.note-icon-pin{
+  cursor: pointer;
+  float: right;
+  right: 4px;
+  top: 4px;
+  position: absolute;
+  border: 1px solid transparent;
+  opacity: 0.9;
+      /* margin: 5px; */
+}
+
+.note-images-div{
+  direction: ltr;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.note-icon-images-delete{
+  cursor: pointer;
+  float: right;
+  right: 4px;
+ bottom :6px;
+ height: 24px;
+ width: 24px;
+ border-radius: 2px;
+  position: absolute;
+  border: 1px solid transparent;
+  
+  background-color: rgba(0,0,0,0.8);
+  transition: opacity .218s linear;
+}
+
+
+.note-icon-images-delete:hover{
+  opacity: 1;
+  /* visibility: hidden; */
+  /* cursor: pointer;
+  float: right;
+  right: 4px;
+ bottom :6px;
+ height: 24px;
+ width: 24px;
+ border-radius: 2px;
+  position: absolute;
+  border: 1px solid transparent;
+  opacity: 0.9;
+  background-color: rgba(0,0,0,0.8); */
+}
+
+.note-image-div .note-icon-images-delete{
+  opacity: 0;
+}
+.note-image-div:hover .note-icon-images-delete{
+ opacity: 0.85;
+}
+
+.note-icon-div{
+  cursor: pointer;
+  opacity:0.5 ;
+
+  /* margin: 5px; */
+}
+.note-icon-div img{
+  height: 20px;
+  /* margin: 5px; */
+} 
+
+.note-top-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.note-body-text{
+  white-space: pre-line;
+}
+
+.note-icon-div:hover:hover {opacity: 1}
+
+.note-bottom-icons-div{
+  /* display: flex;
+  justify-content: space-evenly;
+  padding: 3px; */
+  /* position: absolute; */
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition-duration: .218s;
+  transition-duration: .218s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+
+.deletednote-bottom-icons-div{
+  display: flex;
+  justify-content: left;
+  padding: 3px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition-duration: .218s;
+  transition-duration: .218s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+
+/* .noteEdit-dialog{
+
+} */
+
+.note-card .note-card-def:hover{
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  transition-duration: .218s;
+ 
+  /* transition-property: background,opacity,box-shadow,transform; */
+}
+
+.note-card-grid .note-card-def:hover{
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+ 
+}
+
+
+
+.reminder-popper{
+  z-index: 1;
+  
+}
+
+.colorpallate-paper{
+  display: flex;
+  max-width: 120px;
+}
+
+.colorpallate-paper .colorpallate-avatar{
+  border: solid 1px white;
+  height: 26px;
+  width: 26px;
+  margin: 1px;
+}
+
+.colorpallate-paper .colorpallate-avatar:hover{
+  border: solid 1px grey;
+}
+
+.inside-avatar-div{
+  margin-right: 8px;
+}
+
+.inside-avatar-div .profile-popup-avatar{
+  height:96px;
+  width: 96px;
+  font-size: 3rem;
+  background-color: crimson;
+  display: flex;
+  
+}
+
+div .profile-avatar{
+  
+  
+  background-color: crimson;
+  
+}
+
+.profile-popper-cardcontent{
+  
+  display: flex;
+}
+
+.profile-popper-below-div{
+  display: flex;
+  justify-content: space-evenly;
+
+  background: #f5f5f5;
+  padding: 10px 0;
+}
+
+.noteoptions-list-div{
+  cursor: pointer;
+  padding : 2px 4px ;
+}
+
+.add-label-div{
+  cursor: pointer;
+  padding : 2px 4px ;
+}
+.add-label-div:hover{
+  background: rgba(0,0,0,0.1);
+}
+
+.noteoptions-list-div:hover{
+  background: rgba(0,0,0,0.1);
+}
+
+@media only screen and (max-width: 780px ) {
+
+  
+  .notes-div {
+      width: 500px;
+  }
+
+}
+
+
+@media only screen and (max-width: 720px ) {
+  
+  /* body {
+      background-color:lightgoldenrodyellow;
+  } */
+  
+  #formcard{
+      margin: auto;
+      margin-top: 30%;
+      height: 100%;
+      width: 100%;
+      bottom: 100%;
+      margin-bottom: 30%
+  }
+
+  #logincard{
+      margin: auto;
+      margin-top: 40%;
+      height: 100%;
+    
+      bottom: 100%;
+      margin-bottom: 30%
+  }
+
+  #verify-card{
+    /* /  margin: auto; */
+      margin-top: 30%;
+      height: 450px;
+      width: 400px;
+      
+  }
+
+  #login-btn-div{
+      margin: 15px ;
+      margin-left: 0%;  
+  }
+
+  .register-btn{
+      width:100%;
+  }
+
+  .login-btn{
+      width:100%;
+  }
+}
+
+/*********************************************************************************************************************
+********************/
+
+@media only screen and (max-width: 600px ) {
+
+  .main-div-drawer-open{
+      margin-left: 0px;
+      transition: margin-left .25s cubic-bezier(0.4,0.0,0.2,1),visibility 0s linear .25s;
+      /* transition: margin-left 225ms cubic-bezier(0, 0, 0.2, 1) 0ms; */
+      /* transition: margin-left 0.13s; 
+   transition-timing-function: ease-out;  */
+  }
+  
+  /* body {
+      background-color:lightgoldenrodyellow;
+  } */
+
+  .appbar-heading-div {
+      display: flex;
+      min-width: 110px;
+  }
+  #formcard{
+      margin: auto;
+      margin-top: 30%;
+      height: 100%;
+      width: 100%;
+      bottom: 100%;
+      margin-bottom: 30%;
+
+  }
+
+  #logincard{
+      margin: auto;
+      margin-top: 40%;
+      height: 100%;
+      width: 100%;
+      bottom: 100%;
+      margin-bottom: 30%
+  }
+
+  #verify-card{
+      /* /  margin: auto; */
+        margin-top: 25%;
+        height: 400px;
+        width: 350px;
+        
+    }
+
+  #login-btn-div{
+      margin: 15px ;
+      margin-left: 0%;  
+  }
+
+  .register-btn{
+      width:100%;
+  }
+
+  .login-btn{
+      width:100%;
+  }
+
+  .appbar-search{
+      display: none;
+     
+  }
+
+  .notes-div-grid{
+      width: 100%;
+  
+  }
+
+  .notes-div{
+  width: 100%;
+  display: block;
+  }
+
+  .takenote-div{
+      display: flex ;
+      padding: 6px 20px 6px 20px;
+      margin: 100px auto 0px auto ;
+      width: auto;
+      min-width: 320px;
+      /* margin-left: 350px; */
+      height: 30px;
+      box-shadow: 0px 0px 5px rgb(44, 44, 44);
+      border-radius: 8px;
+      /* line-height: 10%; */
+  }
+
+  .takenote-div-open{
+      width: auto;
+      min-width: 345;
+  }
+
+  button.MuiButtonBase-root-47.MuiIconButton-root-41.appbar-iconbutton-grid{
+     display:none;
+  }
+
+  
+
+  .note-card {
+  width: 100%;
+  min-width: 340px ;
+  }
+  .note-card-grid{
+      width: 100%;
+      /* margin: 1%; */
+      /* margin-bottom: 0%; */
+      /* flex-direction: row; */
+      margin: 25px auto 0 auto;
+      min-width: 340px;
+      /* width:600px;
+      margin: 1%;
+      margin-bottom: 0%; */
+      /*
+      flex-direction: row; */
+  }
+  .appbar-logo{
+      display: none;
+  }
+
+  .appbar-divbutton{
+      margin-left: auto;
+      display: flex;
+  }
+
+  .appbar-avatar-btn{
+      margin: 0;
+  }
+}
+
+@media only screen and (max-width: 320px ) {
+
+  .takenote-div-open{
+      min-width: 320px;
+  }
+  
+
+}
+/* 0px 35px 0px 35px */
