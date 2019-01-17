@@ -151,7 +151,7 @@ class Login extends Component {
                 <div className='error'>{this.state.error.password}</div>
               </div>
               <div id='login-btn-div'>
-                <Button variant="contained" color="primary" type='submit' onClick={this.handleClick} className='login-btn'>
+                <Button variant="contained" color="primary" type='submit' onClick={this.handleClick} id='loginbtn' className='login-btn'>
                   Login
                 </Button>
               </div>

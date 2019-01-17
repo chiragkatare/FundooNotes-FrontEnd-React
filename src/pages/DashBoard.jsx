@@ -522,7 +522,7 @@ export default class DashBoard extends React.Component {
         if (this.state.user === null) {
             return null;
         }
-        console.log('dash', this.state);
+        // console.log('dash', this.state);
 
 
         var notes = (this.state.Notes.map((note, index) => {

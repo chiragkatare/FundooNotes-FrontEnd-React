@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register should render correctly in "debug" mode 1`] = `
+<div>
+  <WithStyles(Card)
+    id="formcard"
+  >
+    <WithStyles(CardContent)>
+      <div>
+        <WithStyles(Typography)
+          className="login"
+          color="primary"
+          component="h2"
+          id="card-heading"
+          variant="h5"
+        >
+          Register
+        </WithStyles(Typography)>
+        <div
+          className="form"
+        >
+          <div>
+            <Input
+              label="First name"
+              name="firstname"
+              onChange={[Function]}
+              placeholder="Enter First Name"
+              type="text"
+            />
+            <div
+              className="error"
+            />
+          </div>
+          <div>
+            <Input
+              label="Last Name"
+              name="lastname"
+              onChange={[Function]}
+              placeholder="Enter Last Name"
+              type="text"
+            />
+            <div
+              className="error"
+            />
+          </div>
+          <div>
+            <Input
+              label="Email"
+              name="email"
+              onChange={[Function]}
+              placeholder="Enter Your Email"
+              required={true}
+              type="Email"
+            />
+            <div
+              className="error"
+            />
+          </div>
+          <div>
+            <Input
+              label="PassWord"
+              name="password"
+              onChange={[Function]}
+              placeholder="Enter Password"
+              type="password"
+            />
+            <div
+              className="error"
+            />
+          </div>
+          <div>
+            <Input
+              color="error"
+              label="Confirm Password"
+              name="rpassword"
+              onChange={[Function]}
+              placeholder="Confirm PassWord"
+              required={true}
+              type="password"
+            />
+            <div
+              className="error"
+            />
+          </div>
+          <div
+            id="register-btn-div"
+          >
+            <WithStyles(Button)
+              className="register-btn"
+              color="primary"
+              onClick={[Function]}
+              type="submit"
+              variant="contained"
+            >
+              Submit
+            </WithStyles(Button)>
+          </div>
+          <span>
+            <WithStyles(Typography)
+              id="reg-text-login"
+            >
+              Already have an account 
+              <a
+                href="/login"
+              >
+                Login
+              </a>
+            </WithStyles(Typography)>
+          </span>
+        </div>
+      </div>
+    </WithStyles(CardContent)>
+  </WithStyles(Card)>
+</div>
+`;

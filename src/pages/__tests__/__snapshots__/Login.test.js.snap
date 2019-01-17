@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should not login with empty fields 1`] = `
+<div>
+  <script
+    async={true}
+    defer={true}
+    src="https://apis.google.com/js/platform.js"
+  />
+  <WithStyles(Card)
+    id="logincard"
+  >
+    <WithStyles(CardContent)>
+      <div>
+        <WithStyles(Typography)
+          color="primary"
+          component="h2"
+          id="login-text"
+          variant="h5"
+        >
+          Login
+        </WithStyles(Typography)>
+        <div>
+          <Input
+            label="Email"
+            name="email"
+            onChange={[Function]}
+            placeholder="Enter Your Email"
+            type="Email"
+          />
+          <div
+            className="error"
+          />
+        </div>
+        <div>
+          <Input
+            label="PassWord"
+            name="password"
+            onChange={[Function]}
+            placeholder="Enter PassWord"
+            type="Password"
+          />
+          <div
+            className="error"
+          />
+        </div>
+        <div
+          id="login-btn-div"
+        >
+          <WithStyles(Button)
+            className="login-btn"
+            color="primary"
+            onClick={[Function]}
+            type="submit"
+            variant="contained"
+          >
+            Login
+          </WithStyles(Button)>
+        </div>
+      </div>
+      <div>
+        <span
+          className="below-txt"
+        >
+          <span>
+            <a
+              href="/forgetpassword"
+            >
+              Forgot Password
+            </a>
+          </span>
+        </span>
+        <span>
+          <WithStyles(Typography)>
+            New User,
+            <a
+              href="/register"
+            >
+              SignUp
+            </a>
+          </WithStyles(Typography)>
+        </span>
+      </div>
+      <div
+        className="social-login"
+      >
+        <GoogleLogin
+          changeLoginStatus={[Function]}
+        />
+        <FacebookLogin
+          changeLoginStatus={[Function]}
+        />
+      </div>
+    </WithStyles(CardContent)>
+  </WithStyles(Card)>
+</div>
+`;
+
+exports[`Login should render correctly in "debug" mode 1`] = `
+<div>
+  <script
+    async={true}
+    defer={true}
+    src="https://apis.google.com/js/platform.js"
+  />
+  <WithStyles(Card)
+    id="logincard"
+  >
+    <WithStyles(CardContent)>
+      <div>
+        <WithStyles(Typography)
+          color="primary"
+          component="h2"
+          id="login-text"
+          variant="h5"
+        >
+          Login
+        </WithStyles(Typography)>
+        <div>
+          <Input
+            label="Email"
+            name="email"
+            onChange={[Function]}
+            placeholder="Enter Your Email"
+            type="Email"
+          />
+          <div
+            className="error"
+          />
+        </div>
+        <div>
+          <Input
+            label="PassWord"
+            name="password"
+            onChange={[Function]}
+            placeholder="Enter PassWord"
+            type="Password"
+          />
+          <div
+            className="error"
+          />
+        </div>
+        <div
+          id="login-btn-div"
+        >
+          <WithStyles(Button)
+            className="login-btn"
+            color="primary"
+            id="loginbtn"
+            onClick={[Function]}
+            type="submit"
+            variant="contained"
+          >
+            Login
+          </WithStyles(Button)>
+        </div>
+      </div>
+      <div>
+        <span
+          className="below-txt"
+        >
+          <span>
+            <a
+              href="/forgetpassword"
+            >
+              Forgot Password
+            </a>
+          </span>
+        </span>
+        <span>
+          <WithStyles(Typography)>
+            New User,
+            <a
+              href="/register"
+            >
+              SignUp
+            </a>
+          </WithStyles(Typography)>
+        </span>
+      </div>
+      <div
+        className="social-login"
+      >
+        <GoogleLogin
+          changeLoginStatus={[Function]}
+        />
+        <FacebookLogin
+          changeLoginStatus={[Function]}
+        />
+      </div>
+    </WithStyles(CardContent)>
+  </WithStyles(Card)>
+</div>
+`;
