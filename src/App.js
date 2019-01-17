@@ -15,7 +15,7 @@ import Notverified from "./pages/Notverified";
 
 const theme = createMuiTheme(defTheme);
 
-export default class Index extends Component {
+export default class App extends Component {
     
     render() {
         return (
@@ -39,5 +39,5 @@ export default class Index extends Component {
 }
 
 if (document.getElementById('Index')) {
-    ReactDOM.render(<Index />, document.getElementById('Index'));
+    ReactDOM.render(<App />, document.getElementById('App'));
 }
