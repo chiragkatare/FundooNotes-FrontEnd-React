@@ -27,10 +27,10 @@ class Register extends Component {
    * 
    * @param {var} data 
    */
-  getDataFromInput(event,data) {
+  getDataFromInput(event) {
     // console.log('register', data);
     this.setState({
-      [event.target.name]: data
+      [event.target.name]: event.target.value
     })
   }
 

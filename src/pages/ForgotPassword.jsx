@@ -18,9 +18,9 @@ export default class ForgotPassword extends Component {
 
   }
 
-  getDataFromInput(event,data) {
+  getDataFromInput(event) {
     this.setState({
-      [event.target.name]: data
+      [event.target.name]: event.target.value
     });
     // console.log();
   }
@@ -33,6 +33,7 @@ export default class ForgotPassword extends Component {
    * handle the click of button event and send the email to backend
    */
   handleClick(event) {
+
     userService.forgotPassword({ email: this.state.email }).then(res => {
       console.log(res);
 

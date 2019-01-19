@@ -61,9 +61,9 @@ class Login extends Component {
    * 
    * @param {var} data 
    */
-  getDataFromInput(event, data) {
+  getDataFromInput(event) {
     this.setState({
-      [event.target.name]: data
+      [event.target.name]: event.target.value
     })
   }
 
@@ -143,11 +143,11 @@ class Login extends Component {
                 Login
         </Typography>
               <div>
-                <Input name='email' type={'Email'} placeholder={'Enter Your Email'} label={'Email'} onChange={this.getDataFromInput} />
+                <Input id='email' name='email' type={'Email'} placeholder={'Enter Your Email'} label={'Email'} onChange={this.getDataFromInput} />
                 <div className='error'>{this.state.error.email}</div>
               </div>
               <div>
-                <Input name='password' type={'Password'} placeholder={'Enter PassWord'} label={'PassWord'} onChange={this.getDataFromInput} />
+                <Input id="password" name='password' type={'Password'} placeholder={'Enter PassWord'} label={'PassWord'} onChange={this.getDataFromInput} />
                 <div className='error'>{this.state.error.password}</div>
               </div>
               <div id='login-btn-div'>

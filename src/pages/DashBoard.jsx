@@ -45,7 +45,7 @@ export default class DashBoard extends React.Component {
         // debugger;
         // console.log('compwillmountdash');
         if (localStorage.getItem('fundootoken') === null) {
-            this.props.history.push('/login');
+            // this.props.history.push('/login');
             return;
         }
 
@@ -512,9 +512,9 @@ export default class DashBoard extends React.Component {
      */
     render() {
 
-        // if ((localStorage.getItem('fundootoken')) === null) {
-
-        // }
+        if ((localStorage.getItem('fundootoken')) === null) {
+            // this.props.history.push("/");
+        }
 
         if (this.state.user === null) {
             return null;

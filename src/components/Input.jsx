@@ -14,7 +14,7 @@ export default class Input extends Component {
     sendDataToParent(event) {
         
         this.setState({ data: event.target.value })
-        this.props.onChange(event ,event.target.value)
+        this.props.onChange(event)
         // console.log("from input", this.state.data);
     }
     render() {
