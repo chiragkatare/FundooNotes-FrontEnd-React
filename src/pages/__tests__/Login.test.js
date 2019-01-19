@@ -7,8 +7,8 @@ configure({adapter: new Adapter()});
 
 describe('Login', () => {
   it('should render correctly in "debug" mode', () => {
-    const component = shallow(<Login debug />);
-  
+    // const component = shallow(<Login debug />);
+    const component = mount(<Login debug />);
     expect(component).toMatchSnapshot();
   });
 
