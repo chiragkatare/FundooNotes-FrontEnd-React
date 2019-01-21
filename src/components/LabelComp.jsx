@@ -26,7 +26,7 @@ export default class LabelComp extends React.Component{
         if(this.state.label===this.props.label.label){
             return ;
         }
-        debugger;
+        // debugger;
         let data={
             label:this.state.label,
             labelid:this.props.label.id

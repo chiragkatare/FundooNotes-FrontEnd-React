@@ -304,7 +304,7 @@ export default class DashBoard extends React.Component {
         };
         noteService.addNoteLabel(data).then(response => {
             if (response.status === 200) {
-                debugger;
+                // debugger;
                 let note = response.data.note;
                 let tempNotes = this.state.Notes;
                 tempNotes[index] = note[0];
@@ -463,7 +463,7 @@ export default class DashBoard extends React.Component {
         formData.append('noteid', this.state.Notes[noteindex].id)
         noteService.addNoteImage(formData).then(resp => {
             console.log(resp);
-            debugger;
+            // debugger;
             let Notes = [...this.state.Notes];
             Notes[noteindex] = resp.data.note[0];
             this.setState({
@@ -481,15 +481,17 @@ export default class DashBoard extends React.Component {
         var data = {imageid:imageid,
                     noteid:this.state.Notes[noteindex].id}
         noteService.deleteNoteImage(data).then(resp=>{
-            debugger;
+            // debugger;
             let Notes = [...this.state.Notes];
             Notes[noteindex] = resp.data.note[0];
             this.setState({
                 Notes
             });
         }).catch(error=>{
-            debugger;
-            alert('Image Delete',error);
+            // debugger;
+            console.log(error);
+            
+            // alert('Image Delete',error);
         });
     }
 

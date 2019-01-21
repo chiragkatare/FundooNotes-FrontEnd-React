@@ -140,7 +140,7 @@ export default class NoteEdit extends React.Component {
   }
 
   handleDelete = () => {
-    alert('kjosdhdkjhsk');
+    // alert('kjosdhdkjhsk');
   }
 
   /**
