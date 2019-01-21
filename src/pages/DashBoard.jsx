@@ -513,10 +513,10 @@ export default class DashBoard extends React.Component {
      */
     render() {
 
-        if ((localStorage.getItem('fundootoken')) === null) {
-            // this.props.history.push("/");
-            return (<Redirect to='/login'></Redirect>);
-        }
+        // if ((localStorage.getItem('fundootoken')) === null) {
+        //     // this.props.history.push("/");
+        //     // return (<Redirect to='/login'></Redirect>);
+        // }
 
         if (this.state.user === null) {
             return null;

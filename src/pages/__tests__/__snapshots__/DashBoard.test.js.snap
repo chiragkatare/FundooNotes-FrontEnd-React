@@ -1,8 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DashBoard should render correctly in "debug" mode 1`] = `
-<Redirect
-  push={false}
-  to="/login"
-/>
-`;
+exports[`DashBoard should mount correctly in "debug" mode 1`] = `<DashBoard />`;
+
+exports[`DashBoard should render correctly in "debug" mode 1`] = `<DashBoard />`;

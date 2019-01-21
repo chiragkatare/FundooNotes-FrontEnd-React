@@ -5,7 +5,7 @@ import Input from "../components/Input";
 import UserService from "../services/UserService";
 
 var userservice = new UserService();
-export default class EmailVerification extends Component {
+export default class PasswordReset extends Component {
     constructor(props) {
         super(props);
         this.state = {

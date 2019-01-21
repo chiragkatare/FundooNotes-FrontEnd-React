@@ -42,7 +42,7 @@ const theme = createMuiTheme({
 });
 
 
-export default class Note extends React.Component {
+export default class DeletedNote extends React.Component {
 
 
     constructor(props) {

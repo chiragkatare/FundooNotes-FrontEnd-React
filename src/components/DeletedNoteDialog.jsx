@@ -47,7 +47,7 @@ const theme = createMuiTheme({
 });
 
 
-export default class NoteEdit extends React.Component {
+export default class DeletedNoteEdit extends React.Component {
     state = {
         open: false,
         index: this.props.index,

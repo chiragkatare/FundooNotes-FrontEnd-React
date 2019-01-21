@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Snackbars extends React.Component {
+export default class ImageUpload extends React.Component {
 
     state = {
         open: false,
@@ -11,9 +11,9 @@ export default class Snackbars extends React.Component {
         this.fileInput.click();
     }
 
-    handleNotePic = (e) => {
+    handleNotePic = (event) => {
 
-        this.props.handleImageUpload(e.target.files[0]);
+        this.props.handleImageUpload(event.target.files[0]);
     }
 
     render() {

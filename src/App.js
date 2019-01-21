@@ -4,7 +4,6 @@ import {BrowserRouter as Router , Route} from 'react-router-dom';
 import Login from './pages/Login';
 // import '../css/app.css'
 import Register from './pages/Register';
-import UserDetails from "./pages/UserDetails";
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import defTheme from "./components/themeDefault"
 import  ForgotPassword  from "./pages/ForgotPassword";
@@ -25,7 +24,7 @@ export default class App extends Component {
                    <Route path='/' exact component={DashBoard}></Route>
                    <Route path='/login' component={Login}></Route>
                    <Route path='/register' component={Register}></Route>
-                   <Route path='/details' component={UserDetails}></Route>
+                   {/* <Route path='/details' component={UserDetails}></Route> */}
                    <Route path='/forgetpassword' component={ForgotPassword}></Route>
                    <Route path='/verifyemail/:email' component={EmailVerification}></Route>
                    <Route path='/passwordreset/:token' component={PasswordReset}></Route>

@@ -6,7 +6,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 
 
 
-export default class AddLabel extends React.Component {
+export default class LabelAddLabel extends React.Component {
 
     constructor(props) {
         super(props);

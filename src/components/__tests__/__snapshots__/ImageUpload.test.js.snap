@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render correctly in "debug" mode 1`] = `
+<div>
+  <div
+    className="note-icon-div"
+    onClick={[Function]}
+    role="Button"
+  >
+    <img
+      alt=""
+      src={
+        Object {
+          "ReactComponent": [Function],
+          "__esModule": true,
+          "default": "AddImage.svg",
+        }
+      }
+    />
+  </div>
+  <input
+    accept="image/*"
+    name="profiepic"
+    onChange={[Function]}
+    placeholder="Change Profile Pic"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    type="file"
+  />
+</div>
+`;
