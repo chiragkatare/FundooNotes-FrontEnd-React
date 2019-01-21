@@ -10,6 +10,7 @@ import SnakeBars from '../components/Snakebars';
 import DeletedNote from '../components/DeletedNote';
 import FormData from 'form-data';
 import SearchPage from '../components/SearchedPage';
+import {Redirect} from 'react-router-dom';
 // import NotesGrid from "../components/NotesGrid";
 // import SmallAppBar from '../components/SmallAppBar';
 
@@ -514,6 +515,7 @@ export default class DashBoard extends React.Component {
 
         if ((localStorage.getItem('fundootoken')) === null) {
             // this.props.history.push("/");
+            return (<Redirect to='/login'></Redirect>);
         }
 
         if (this.state.user === null) {

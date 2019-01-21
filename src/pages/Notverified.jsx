@@ -48,7 +48,7 @@ export default class NotVerified extends Component {
                 <Typography align='center' component="p" >
                   We have sent a link to your email , check you inbox
                 </Typography>
-                <Button fullWidth variant="contained" color="primary" type='submit' onClick={this.handleLogin.bind(this)} >Login Page</Button>
+                <Button id='login' fullWidth variant="contained" color="primary" type='submit' onClick={this.handleLogin.bind(this)} >Login Page</Button>
               </div>
           </CardContent>
         </Card>

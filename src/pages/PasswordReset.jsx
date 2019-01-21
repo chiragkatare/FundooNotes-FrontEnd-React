@@ -19,10 +19,10 @@ export default class EmailVerification extends Component {
     }
 
 
-    getDataFromInput(event ,data) {
+    getDataFromInput(event) {
         // console.log('register', data);
         this.setState({
-          [event.target.name]: data
+          [event.target.name]: event.target.value
         })
       }
 
@@ -86,7 +86,7 @@ export default class EmailVerification extends Component {
     }
 
     render() {
-        console.log(this.state.email);
+        // console.log(this.state.email); 
 
 
         return (
@@ -115,10 +115,10 @@ export default class EmailVerification extends Component {
                         (
                             <div> <Typography align='center' variant='h5' component='h4' >Enter New Password</Typography>
                                 <div>
-                                    <Input name='password' type={'password'} placeholder={'Enter password'} label={'Password'} onChange={this.getDataFromInput} />
+                                    <Input id='password' name='password' type={'password'} placeholder={'Enter password'} label={'Password'} onChange={this.getDataFromInput} />
                                 </div>
                                 <div>
-                                    <Input name='rpassword' type={'password'} placeholder={'Confirm password'} label={'Confirm Password'} onChange={this.getDataFromInput} />
+                                    <Input id= 'rpassword' name='rpassword' type={'password'} placeholder={'Confirm password'} label={'Confirm Password'} onChange={this.getDataFromInput} />
                                 </div>
                                 <div className='form-btn'>
                                     <Button fullWidth variant="contained" color="primary" type='submit' onClick={this.handleClick.bind(this)} >Reset</Button></div></div>

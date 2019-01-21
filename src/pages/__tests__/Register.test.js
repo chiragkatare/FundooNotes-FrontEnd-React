@@ -10,7 +10,7 @@ describe('Register', () => {
     const component = shallow(<Register debug />);
   
     expect(component).toMatchSnapshot();
-  });
+  }); 
 
 
   it('firstname input respond to change event and change state of the Register Component', () => {

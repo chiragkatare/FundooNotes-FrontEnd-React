@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render correctly in "debug" mode 1`] = `
+<TextField
+  className="label"
+  fullWidth={true}
+  label="label"
+  name="password"
+  onChange={[Function]}
+  placeholder="hello"
+  required={false}
+  select={false}
+  type="text"
+  variant="standard"
+/>
+`;
+
+exports[`Input should render correctly in with props 1`] = `
+<TextField
+  className="label"
+  fullWidth={true}
+  label="label"
+  name="password"
+  onChange={[Function]}
+  placeholder="hello"
+  required={false}
+  select={false}
+  type="text"
+  variant="standard"
+/>
+`;

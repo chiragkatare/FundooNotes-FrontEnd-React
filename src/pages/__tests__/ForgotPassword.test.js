@@ -12,6 +12,11 @@ describe('ForgotPassword', () => {
     expect(component).toMatchSnapshot();
   });
 
+  it('renders a email input', () => {
+    const componentInput = shallow(<ForgotPassword />);
+    expect(componentInput.find('Input').length).toEqual(1);
+  })
+
   it('email input respond to change event and change state of the Register Component', () => {
 
     const componentInput = shallow(<ForgotPassword />);

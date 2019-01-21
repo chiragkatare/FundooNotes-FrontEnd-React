@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotVerified should render correctly in "debug" mode 1`] = `
+<div>
+  <WithStyles(Card)
+    id="logincard"
+  >
+    <div
+      className="label-forgetpass"
+    >
+      <div
+        className="logo"
+      >
+        <img
+          alt=""
+          src={
+            Object {
+              "ReactComponent": [Function],
+              "__esModule": true,
+              "default": "logo.svg",
+            }
+          }
+        />
+      </div>
+    </div>
+    <WithStyles(CardContent)>
+      <div>
+        <WithStyles(Typography)
+          align="center"
+          component="h4"
+          variant="h5"
+        >
+          !Email Not Verfied!
+        </WithStyles(Typography)>
+        <WithStyles(Typography)
+          align="center"
+          component="p"
+        >
+          Your email is not verified pls Verify your email
+        </WithStyles(Typography)>
+        <WithStyles(Typography)
+          align="center"
+          component="p"
+        >
+          Please Verify your email
+        </WithStyles(Typography)>
+        <WithStyles(Typography)
+          align="center"
+          component="p"
+        >
+          We have sent a link to your email , check you inbox
+        </WithStyles(Typography)>
+        <WithStyles(Button)
+          color="primary"
+          fullWidth={true}
+          id="login"
+          onClick={[Function]}
+          type="submit"
+          variant="contained"
+        >
+          Login Page
+        </WithStyles(Button)>
+      </div>
+    </WithStyles(CardContent)>
+  </WithStyles(Card)>
+</div>
+`;
